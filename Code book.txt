@@ -1,0 +1,77 @@
+Description of Variables
+========================
+
+For the final data set, there were 42 variables:
+
+1: Subject - 30 volunteers within an age bracket of 19-48 years. Numbered between 1 and 30.
+2: Activity - Six activities: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+3 - 8: 
+movement_of_body_MEAN_on_X_axis_of_phone
+movement_of_body_MEAN_on_Y_axis_of_phone
+movement_of_body_MEAN_on_Z_axis_of_phone
+movement_of_body_STD_on_X_axis_of_phone   
+movement_of_body_STD_on_Y_axis_of_phone
+movement_of_body_STD_on_Z_axis_of_phone
+- These variables give the mean and standard deviation on the XYZ axes of the phone as determined by the acceleration of the body. This data has been normalised and bounded within [-1,1].
+
+9 - 14:
+acc_due_to_gravity_MEAN_on_X_axis_of_phone
+acc_due_to_gravity_MEAN_on_Y_axis_of_phone
+acc_due_to_gravity_MEAN_on_Z_axis_of_phone
+acc_due_to_gravity_STD_on_X_axis_of_phone
+acc_due_to_gravity_STD_on_Y_axis_of_phone
+acc_due_to_gravity_STD_on_Z_axis_of_phone
+- These variables give the mean and standard deviation on the XYZ axes of the phone as determined by the acceleration due to gravity. This data has been normalised and bounded within [-1,1].
+
+15 - 20:    
+jerk_of_body_MEAN_on_X_axis_of_phone
+jerk_of_body_MEAN_on_Y_axis_of_phone
+jerk_of_body_MEAN_on_Z_axis_of_phone
+jerk_of_body_STD_on_X_axis_of_phone
+jerk_of_body_STD_on_Y_axis_of_phone
+jerk_of_body_STD_on_Z_axis_of_phone
+- These variables give the mean and standard deviation on the XYZ axes of the phone as determined by the linear acceleration, or jerks, of the body. This data has been normalised and bounded within [-1,1].
+
+21 - 26
+rotation_of_body_MEAN_on_X_axis_of_phone
+rotation_of_body_MEAN_on_Y_axis_of_phone
+rotation_of_body_MEAN_on_Z_axis_of_phone
+rotation_of_body_STD_on_X_axis_of_phone
+rotation_of_body_STD_on_Y_axis_of_phone
+rotation_of_body_STD_on_Z_axis_of_phone
+- These variables give the mean and standard deviation on the XYZ axes of the phone as determined by the rotations of the body. This data has been normalised and bounded within [-1,1].
+
+27 - 32    
+jerk_rotation_of_body_MEAN_on_X_axis_of_phone
+jerk_rotation_of_body_MEAN_on_Y_axis_of_phone
+jerk_rotation_of_body_MEAN_on_Z_axis_of_phone
+jerk_rotation_of_body_STD_on_X_axis_of_phone
+jerk_rotation_of_body_STD_on_Y_axis_of_phone
+jerk_rotation_of_body_STD_on_Z_axis_of_phone
+- These variables give the mean and standard deviation on the XYZ axes of the phone as determined by the angular velocity, or jerk rotations, of the body. This data has been normalised and bounded within [-1,1].
+
+33 - 34:
+total_movement_of_body_MEAN
+total_movement_of_body_STD
+- These variables give the total mean and standard deviation of the phone on all axes as determined by the movement of the body. This data has been normalised and bounded within [-1,1].
+
+35 - 36:                   
+total_acc_due_to_gravity_MEAN
+total_acc_due_to_gravity_STD
+- These variables give the total mean and standard deviation of the phone on all axes as determined by the acceleration due to gravity. This data has been normalised and bounded within [-1,1].           
+
+37 - 38:
+total_jerk_of_body_MEAN
+total_jerk_of_body_STD                       
+- These variables give the total mean and standard deviation of the phone on all axes as determined by the linear acceleration, or jerks, of the body. This data has been normalised and bounded within [-1,1].
+
+39 - 40:
+total_rotation_of_body_MEAN
+total_rotation_of_body_STD  
+- These variables give the total mean and standard deviation of the phone on all axes as determined by the rotation of the body. This data has been normalised and bounded within [-1,1].                 
+
+41 - 42:
+total_jerk_rotation_of_body_MEAN
+total_jerk_rotation_of_body_STD  
+- These variables give the total mean and standard deviation of the phone on all axes as determined by the angular velocity, or jerk rotations, of the body. This data has been normalised and bounded within [-1,1].
+
